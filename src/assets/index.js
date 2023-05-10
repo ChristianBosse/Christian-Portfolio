@@ -8,7 +8,8 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import php from "./tech/php.png";
+import python from "./tech/python.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -39,7 +40,7 @@ export {
     menu,
     close,
     css,
-    docker,
+    php,
     figma,
     git,
     html,
@@ -50,6 +51,7 @@ export {
     redux,
     tailwind,
     typescript,
+    python,
     threejs,
     concordia,
     solutionscpo,

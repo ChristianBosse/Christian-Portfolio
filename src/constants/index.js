@@ -14,7 +14,8 @@ import {
     mongodb,
     git,
     figma,
-    docker,
+    php,
+    python,
     solutionscpo,
     atl,
     concordia,
@@ -108,8 +109,12 @@ const technologies = [
         icon: figma,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "php",
+        icon: php,
+    },
+    {
+        name: "python",
+        icon: python,
     },
 ];
 
