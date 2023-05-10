@@ -26,9 +26,12 @@ import concordia from "./company/concordia.png";
 import solutionscpo from "./company/solutionscpo.png";
 import atl from "./company/atl.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import current from "./portfolio.png";
+import old_portfolio from "./old_portfolio.png";
+import apex_tracker from "./apex_tracker.png";
+import da_spot from "./da_spot.png";
+import atl_design from "./atl_design.png";
+import cinema_v from "./cinema_v.png";
 
 export {
     logo,
@@ -56,7 +59,10 @@ export {
     concordia,
     solutionscpo,
     atl,
-    carrent,
-    jobit,
-    tripguide,
+    current,
+    old_portfolio,
+    apex_tracker,
+    da_spot,
+    atl_design,
+    cinema_v,
 };

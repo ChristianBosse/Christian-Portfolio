@@ -19,10 +19,13 @@ import {
     solutionscpo,
     atl,
     concordia,
-    carrent,
-    jobit,
-    tripguide,
+    current,
+    old_portfolio,
+    apex_tracker,
     threejs,
+    da_spot,
+    atl_design,
+    cinema_v,
 } from "../assets";
 
 export const navLinks = [
@@ -188,16 +191,16 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Portfolio",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Full-Stack web developer creating seamless and user-friendly web-based platforms. Passionate about delivering high-quality results.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "three.js",
                 color: "green-text-gradient",
             },
             {
@@ -205,41 +208,21 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: current,
+        source_code_link:
+            "https://github.com/ChristianBosse/Christian-Portfolio",
     },
     {
-        name: "Job IT",
+        name: "ATL Design",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "This is my personal company website, which I use to fulfill part-time freelance jobs for local businesses seeking to acquire a website to help them grow.",
         tags: [
             {
-                name: "react",
+                name: "wordpress",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
+                name: "php",
                 color: "green-text-gradient",
             },
             {
@@ -247,8 +230,94 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: atl_design,
+        source_code_link: "https://atldesign.ca/",
+    },
+
+    {
+        name: "Apex Legends Tracker",
+        description:
+            "This is my Full-stack project for my final project for my Concordia University Web development Bootcamp. Using all of my expertise at the time this was truly incredible.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "node.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "api",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: apex_tracker,
+        source_code_link: "https://github.com/ChristianBosse/Apex-Tracker",
+    },
+    {
+        name: "Old Portfolio",
+        description:
+            "First Portfolio i've made after graduating from Concordia. Using React, some animation along with email.js, this was one of my first projects.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "email.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "scss",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: old_portfolio,
+        source_code_link: "https://github.com/ChristianBosse/portfolio-OLD-",
+    },
+    {
+        name: "Da Spot Barber Shop",
+        description:
+            "Small Web application for a local business called Da Spot Barber Shop using html, javascript and CSS. Project was remade using another framework later on.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: da_spot,
+        source_code_link:
+            "https://github.com/ChristianBosse/Da-Spot-Barber-Shop",
+    },
+    {
+        name: "Cinema V",
+        description:
+            "This is a small web application I developed for a local cinema. The project utilizes WordPress CMS to provide the client with a user-friendly platform and peace of mind.",
+        tags: [
+            {
+                name: "wordpress",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "php",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: cinema_v,
+        source_code_link: "https://cinemav.ca/",
     },
 ];
 
