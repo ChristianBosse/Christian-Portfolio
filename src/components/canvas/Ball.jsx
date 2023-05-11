@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import React, { Suspense, useMemo } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
     Decal,
@@ -7,27 +7,26 @@ import {
     Preload,
     useTexture,
 } from "@react-three/drei";
+
 import CanvasLoader from "../Loader";
 
-const Ball = (props) => {
-    const [decal] = useTexture([props.imgUrl]);
+import * as THREE from "three";
+
+const Ball = ({ icon, position, rotation }) => {
+    const decal = useMemo(() => new THREE.TextureLoader().load(icon), [icon]);
 
     return (
         <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
-            <ambientLight intensity={0.25} />
-            <directionalLight position={[0, 0, 0.05]} />
-            <mesh castShadow receiveShadow scale={2.75}>
-                <icosahedronGeometry args={[1, 1]} />
-                <meshStandardMaterial
-                    color="#fff8eb"
-                    polygonOffset
-                    polygonOffsetFactor={-5}
-                    flatShading
-                />
+            <ambientLight intensity={0.03} />
+            <directionalLight position={[10, 5, -5]} />
+            <mesh castShadow receiveShadow scale={1} position={position}>
+                <icosahedronGeometry args={[1, 10]} />
+                <meshStandardMaterial color="#fff8eb" flatShading />
                 <Decal
                     position={[0, 0, 1]}
-                    map={decal}
                     rotation={[2 * Math.PI, 0, 6.25]}
+                    scale={1.2}
+                    map={decal}
                     flatShading
                 />
             </mesh>
@@ -35,13 +34,32 @@ const Ball = (props) => {
     );
 };
 
-const BallCanvas = ({ icon }) => {
+const BallCanvas = ({ icons }) => {
     return (
-        <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
+        <Canvas
+            frameloop="always"
+            shadows
+            dpr={[1, 1]}
+            camera={{ position: [0, 0, 5], fov: 75 }}
+            gl={{ preserveDrawingBuffer: true }}
+        >
             <Suspense fallback={<CanvasLoader />}>
                 <OrbitControls enableZoom={false} />
-                <Ball imgUrl={icon} />
+                <group>
+                    {icons.map((icon, index) => {
+                        const row = Math.floor(index / 3);
+                        const col = index % 3;
+                        return (
+                            <Ball
+                                key={icon}
+                                icon={icon}
+                                position={[col * 3 - 4, row * 2.4 + -2, -9]}
+                            />
+                        );
+                    })}
+                </group>
             </Suspense>
+
             <Preload all />
         </Canvas>
     );
