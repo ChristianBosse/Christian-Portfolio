@@ -47,8 +47,8 @@ const About = () => {
                 of professional experience in the industry. My expertise
                 includes a wide range of languages and technologies such as
                 JavaScript, React, Three.js, Next.js, Framer Motion, Python,
-                PHP, Tailwind CSS, WordPress, Node.js, AJAX, jQuery, and more.
-                I'm passionate about building beautiful, efficient, and
+                PHP, SQL, Tailwind CSS, WordPress, Node.js, AJAX, jQuery, and
+                more. I'm passionate about building beautiful, efficient, and
                 user-friendly websites and web applications that meet and exceed
                 clients expectations. Throughout my career, I've demonstrated my
                 ability to work collaboratively with clients and team members to

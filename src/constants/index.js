@@ -26,6 +26,7 @@ import {
     da_spot,
     atl_design,
     cinema_v,
+    sql,
 } from "../assets";
 
 export const navLinks = [
@@ -118,6 +119,10 @@ const technologies = [
     {
         name: "python",
         icon: python,
+    },
+    {
+        name: "sql",
+        icon: sql,
     },
 ];
 

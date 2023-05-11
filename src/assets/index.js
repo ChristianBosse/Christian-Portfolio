@@ -24,6 +24,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import sql from "./tech/sql.png";
 
 import concordia from "./company/concordia.png";
 import solutionscpo from "./company/solutionscpo.png";
@@ -71,4 +72,5 @@ export {
     linkedIn,
     download_cv,
     cv_pdf,
+    sql,
 };
