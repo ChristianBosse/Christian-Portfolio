@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, linkedIn, download_cv, cv_pdf } from "../assets";
 
 const Navbar = () => {
     const [active, setActive] = useState("");
@@ -46,6 +46,31 @@ const Navbar = () => {
                             <a href={`#${link.id}`}>{link.title}</a>
                         </li>
                     ))}
+                    <li>|</li>
+                    <div className="flex">
+                        <img
+                            src={download_cv}
+                            alt="Download CV"
+                            className="w-6 mr-2 mb-2"
+                        />
+                        <a href={cv_pdf} download>
+                            <span>My CV</span>
+                        </a>
+                    </div>
+                    <div className="flex">
+                        <img
+                            src={linkedIn}
+                            alt="LinkedIn"
+                            className="w-6 mr-2 mb-2"
+                        />
+                        <a
+                            href="https://www.linkedin.com/in/christianbosse-/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
                 </ul>
                 <div className="sm:hidden flex flex-1 justify-end items-center">
                     <img

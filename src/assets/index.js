@@ -6,6 +6,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import linkedIn from "./linkedIn.svg";
+import download_cv from "./download_cv.svg";
+import cv_pdf from "./Christian_Bosse.pdf";
 
 import css from "./tech/css.png";
 import php from "./tech/php.png";
@@ -65,4 +68,7 @@ export {
     da_spot,
     atl_design,
     cinema_v,
+    linkedIn,
+    download_cv,
+    cv_pdf,
 };

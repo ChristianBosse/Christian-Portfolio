@@ -251,6 +251,10 @@ const projects = [
                 name: "api",
                 color: "pink-text-gradient",
             },
+            {
+                name: "MERN",
+                color: "gold-text-gradient",
+            },
         ],
         image: apex_tracker,
         source_code_link: "https://github.com/ChristianBosse/Apex-Tracker",
