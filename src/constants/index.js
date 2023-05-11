@@ -165,27 +165,27 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
+            "Christian has always shown great dedication to the company. He is very pleasant, always in a good mood. He is a colleague appreciated by everyone.",
+        name: "Sophie Larouche",
+        designation: "CEO",
+        company: "Solutions CPO",
         image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
+            "I was impressed with your enthusiasm and the site's features, like using an external API for player stats, which perfectly met my gaming site expectations. Well done!",
+        name: "Bobby Connolly",
+        designation: "Senior Developer",
+        company: "McGill University",
         image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "Christian, I'm so proud! The way you merged your passion for gaming and development into this amazing project is fantastic!",
+        name: "Stephanie Muise",
+        designation: "Senior Developer",
+        company: "Dalhousie University",
+        image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
 ];
 
