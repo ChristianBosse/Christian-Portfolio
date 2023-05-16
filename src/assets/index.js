@@ -36,6 +36,7 @@ import apex_tracker from "./apex_tracker.png";
 import da_spot from "./da_spot.png";
 import atl_design from "./atl_design.png";
 import cinema_v from "./cinema_v.png";
+import ai_image from "./ai_image.png";
 
 export {
     logo,
@@ -73,4 +74,5 @@ export {
     download_cv,
     cv_pdf,
     sql,
+    ai_image,
 };

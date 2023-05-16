@@ -27,6 +27,7 @@ import {
     atl_design,
     cinema_v,
     sql,
+    ai_image,
 } from "../assets";
 
 export const navLinks = [
@@ -195,6 +196,31 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+        name: "Ai Image",
+        description:
+            "MERN Stack application using OpenAI DALL-E API to create, save & share beautifull AI made images based on user prompt.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "node.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "express",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "MERN",
+                color: "gold-text-gradient",
+            },
+        ],
+        image: ai_image,
+        source_code_link: "https://github.com/ChristianBosse/ai-image",
+    },
     {
         name: "Portfolio",
         description:
