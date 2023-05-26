@@ -28,6 +28,7 @@ import {
     cinema_v,
     sql,
     ai_image,
+    chrisgpt,
 } from "../assets";
 
 export const navLinks = [
@@ -196,6 +197,31 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+        name: "ChrisGPT",
+        description:
+            "JavaScript application using OpenAI ChatGPT API to create, save AI answer based on the user's prompt and settings.",
+        tags: [
+            {
+                name: "JavaScript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "node.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "express",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "API",
+                color: "gold-text-gradient",
+            },
+        ],
+        image: chrisgpt,
+        source_code_link: "https://github.com/ChristianBosse/ai-image",
+    },
     {
         name: "Ai Image",
         description:

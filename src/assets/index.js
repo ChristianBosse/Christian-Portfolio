@@ -37,6 +37,7 @@ import da_spot from "./da_spot.png";
 import atl_design from "./atl_design.png";
 import cinema_v from "./cinema_v.png";
 import ai_image from "./ai_image.png";
+import chrisgpt from "./chrisgpt.png";
 
 export {
     logo,
@@ -75,4 +76,5 @@ export {
     cv_pdf,
     sql,
     ai_image,
+    chrisgpt,
 };
